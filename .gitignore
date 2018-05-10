@@ -1,0 +1,28 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.classpath
+.project
+.settings
+
+#IDEA
+.idea
+*.iml
+
+# Maven 
+target
+
+#Linux
+*~
+
+#Vagrant
+.vagrant
+*.retry
+
+derby.log
+/nb-configuration.xml
