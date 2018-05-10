@@ -1,5 +1,11 @@
 # Informations générales
 
+## Quickstart
+
+~~~bash
+vagrant up --provision
+~~~
+
 ## Commande pour relancer ansible
 
 ~~~bash
