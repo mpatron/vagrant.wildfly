@@ -8,15 +8,15 @@ vagrant up --provision
 
 ### Access to PGAdmin 4
 
-http://192.168.56.102/pgadmin4 with the user : postgres@jobjects.org / admin1
+For more information, see `http://192.168.56.102/pgadmin4` with the user : postgres@jobjects.org / admin1
 
 ### Access to PostgreSQL
 
-jdbc:postgresql://192.168.56.102:5432/postgres with the user : postgres / postgres
+For more information, see `jdbc:postgresql://192.168.56.102:5432/postgres` with the user : postgres / postgres
 
 ### Access to Wildlfly
 
-http://192.168.56.102:9990 with the user : admin / admin1
+For more information, see `http://192.168.56.102:9990` with the user : admin / admin1
 
 ## Miscellaneous
 
@@ -41,4 +41,3 @@ module add --name=org.postgresql --slot=main --resources=/vagrant/postgresql-42.
 data-source add --jndi-name=java:/jdbc/localpostgresql --name=PostgreLocalPool --connection-url=jdbc:postgresql://localhost:5432/postgres --driver-name=postgres --user-name=postgres --password=postgres
 /subsystem=datasources/data-source=PostgreLocalPool:test-connection-in-pool(user-name=postgres,password=postgres)
 ~~~
-
