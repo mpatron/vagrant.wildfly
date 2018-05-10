@@ -6,17 +6,17 @@
 vagrant up --provision
 ~~~
 
-### Accès to PGAdmin 4 sur
+### Access to PGAdmin 4
 
-http://192.168.56.102/pgadmin4 avec l'utilisateur : postgres@jobjects.org / admin1
+http://192.168.56.102/pgadmin4 with the user : postgres@jobjects.org / admin1
 
-### Accès to PostgreSQL
+### Access to PostgreSQL
 
-jdbc:postgresql://192.168.56.102:5432/postgres a pour utilisateur : postgres / postgres
+jdbc:postgresql://192.168.56.102:5432/postgres with the user : postgres / postgres
 
-### Accès to Wildlfly
+### Access to Wildlfly
 
-http://192.168.56.102:9990 avec l'utilisateur : admin / admin1
+http://192.168.56.102:9990 with the user : admin / admin1
 
 ## Miscellaneous
 
