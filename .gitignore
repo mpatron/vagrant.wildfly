@@ -26,3 +26,4 @@ target
 
 derby.log
 /nb-configuration.xml
+*.bak
