@@ -196,11 +196,6 @@
     systemd:
       state: restarted
       name: postgresql-10
-  - name: Démarrage du service httpd.
-    systemd:
-      state: restarted
-      name: httpd
-      enabled: yes
 # =================================================
 # Wildfly + PostgreSQL
 # =================================================
